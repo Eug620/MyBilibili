@@ -1,4 +1,4 @@
-<div align="center"> 
+<div align="center">
 <h1 align="center">Bilibili助手</h1>
 <img src="https://img.shields.io/github/issues/srcrs/BilibiliTask?color=green">
 <img src="https://img.shields.io/github/stars/srcrs/BilibiliTask?color=yellow">
@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/github/search/srcrs/BilibiliTask/main?color=blue">
 </div>
 
-# 简介
+# 简介 😄
 
 👯✨😄📫
 
@@ -18,13 +18,13 @@
 
 # 功能
 
-* [x] 自动获取经验(投币、点赞、分享视频) 
-* [x] 直播辅助(直播签到，自动送出即将过期的礼物) 
-* [x] 自动兑换银瓜子为硬币 
-* [x] 自动领取年度大会员每月权益(每月`1`号领取`B`币劵、权益礼包) 
+* [x] 自动获取经验(投币、点赞、分享视频)
+* [x] 直播辅助(直播签到，自动送出即将过期的礼物)
+* [x] 自动兑换银瓜子为硬币
+* [x] 自动领取年度大会员每月权益(每月`1`号领取`B`币劵、权益礼包)
 * [x] 月底自动用B币卷给自己充电(每月`28`号)
 * [x] 月底自动用B币卷兑换金瓜子(每月`28`号)
-* [x] 漫画辅助脚本(漫画`APP`签到) 
+* [x] 漫画辅助脚本(漫画`APP`签到)
 * [x] 支持功能自定义(自定义投币数量，银瓜子兑换硬币开关等)
 * [x] 账户失效提醒(发送到你的微信或者钉钉提醒、邮箱提醒)
 * [x] 支持多种方式推送运行结果(钉钉、微信)
@@ -146,7 +146,7 @@ upList:
 manga: true
 #优先送出即将过期礼物给此up的直播间,填写其 uid
 upLive: 477137547
-``` 
+```
 
 如实在没有想给他投币的up主，可以考虑把我填上哦 `477137547` 😄
 
@@ -190,7 +190,7 @@ PUSHPLUSTK | xxxxx
 
 2.获取钉钉自定义机器人的`Webhook`，将其填写到`Secrets`中
 
-键值对如下格式: 
+键值对如下格式:
 
 Name | Value
 -|-
@@ -237,7 +237,7 @@ git pull upstream main
 4、将更新后的代码推送到你的仓库
 
 ```sh
-git push origin main 
+git push origin main
 ```
 
 由于添加有配置文件`config.yml`，有可能会覆盖你自定义的`config.yml`，需要注意。
@@ -346,4 +346,3 @@ git push origin main
 # 参考项目
 
 [happy888888/BiliExp](https://github.com/happy888888/BiliExp)
- 
